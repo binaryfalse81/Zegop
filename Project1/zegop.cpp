@@ -6,17 +6,13 @@ class Zegop
 {
 private:
     int num;
+
 public:
     Zegop(int num) : num(num) {}
 
     int getZegop()
     {
-        this->num *= this->num;
-        return this->num;
-    }
-
-    void initZegop(int i)
-    {
-        this->num = i;
+        num *= num;
+        return num;
     }
 };

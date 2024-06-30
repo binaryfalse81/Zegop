@@ -9,7 +9,6 @@ protected:
     void SetUp() override
     {
         cout << "테스트 준비" << endl;
-        this->z.initZegop(10);
     }
     void TearDown() override
     {
@@ -30,17 +29,17 @@ public:
     }
 };
 
-TEST_F(ZegopFixture, cal1)
+TEST_F(ZegopFixture, Zegop1)
 {
     getZegopMany(1);
 }
 
-TEST_F(ZegopFixture, cal2)
+TEST_F(ZegopFixture, Zegop2)
 {
     getZegopMany(2);
 }
 
-TEST_F(ZegopFixture, cal3)
+TEST_F(ZegopFixture, Zegop3)
 {
     getZegopMany(3);
 }
